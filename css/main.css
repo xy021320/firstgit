@@ -1,5 +1,5 @@
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
-body{font-size:12px;font-family: '微软雅黑';}
+body{font-size:12px;font-family: '微软雅黑'}
 img{border:none;}
 li{list-style:none;}
 input,select,textare{outline:none;}
@@ -11,7 +11,7 @@ a{text-decoration:none;}
 .hide{display:none};
 
 /*header*/
-.header{width:1349px;background-color:red;color:#ccc;}
+.header{width:1349px;background-color:#333;color:#ccc;}
 .ggwidth{width:1090px;height:36px;margin:0 auto;}
 .header_p{width:108px;line-height:36px;float:left;}
 .header_right a:hover{color:#fff;}

@@ -10,15 +10,15 @@ gulp.task('serve', ['scss'], function() {
         server: "./"
     });
 
-    gulp.watch("assets/scss/*.scss", ['scss']);
+    gulp.watch("scss/*.scss", ['scss']);
     gulp.watch("*.html").on('change', reload);
 });
 
 // scss编译后的css将注入到浏览器里实现更新
 gulp.task('scss', function() {
-    return gulp.src("assets/scss/*.scss")
+    return gulp.src("scss/*.scss")
         .pipe(scss({ outputStyle: 'expanded' }).on('error', scss.logError))
-        .pipe(gulp.dest("assets/css"))
+        .pipe(gulp.dest("css"))
         .pipe(reload({ stream: true }));
 });
 
